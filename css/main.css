@@ -1,0 +1,448 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+
+input{border-radius: 5px; border-width: 1.5px; border-color: black;}
+
+.login{
+
+	width: 350px;
+	margin: 100px auto;
+
+}
+
+p.error{
+
+	background: red;
+	color: white;
+	padding: 10px;
+
+}
+p.gender{
+
+width: 13%;
+
+}
+form.add-user input.check{
+
+
+	display: block;
+	width: 100%;
+	padding: 5px;
+
+	box-sizing:border-box;
+	font-size:14px;
+	width: 0%;
+	float: left;
+
+}
+p.agree{float: right;}
+
+
+p.info{
+
+	background: green;
+	color: white;
+	padding: 8px;
+	width: ;
+	margin: 0 auto;
+
+
+}
+
+div.errmsg {
+
+	color: red;
+}
+
+input{
+
+	display: block;
+	width: 100%;
+	padding: 5px;
+	-webkit-box-sizing:	border;
+	-moz-box-sizing :border-box;
+	box-sizing:border-box;
+	font-size:14px; 
+
+}
+.add-post-form{
+
+width: 53%;
+}
+.add-post-form button{
+
+width: 30%;
+float: right;
+
+}
+
+button{
+
+	width: 100%;
+	padding: 5px;
+	-webkit-box-sizing:	border;
+	-moz-box-sizing :border-box;
+	box-sizing:border-box;
+}
+
+header {
+	
+	
+}
+
+header .appname{
+
+	float: left;
+}
+
+header .loggedin{
+
+	float: right;
+}
+
+.add-q-form{
+
+width: 53%;
+}
+
+.add-q-form button{
+
+width: 30%;
+float: right;
+
+}
+
+.errormsg{
+
+	margin: 20px 0;
+
+
+}
+form.add-user label{
+
+	width: 30%;
+	float: left;
+}
+
+form.add-user input{
+	width: 60%;
+}
+form.add-user button{
+	width: 200px;
+}
+
+.errmsg{
+	margin: 20px 0;
+}
+
+
+
+form.add-pro input{
+	width: 60%;
+}
+
+form.add-pro button{
+	width: 200px;
+}
+form.add-pro label{
+
+	width: 30%;
+	float: left;
+}
+
+main{
+	width : 1000px;
+	margin: 30px auto;
+}
+
+main h1{
+	margin-bottom : 20px;
+	font-size : 50px;
+}
+
+table.masterlist{
+	width: 100%;
+	border-collapse:collapse;
+}
+
+table.masterlist th{
+	background: #aaa;
+	text-align:left;
+}
+
+table.masterlist th,table.masterlist td{
+
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+table.questions{
+	width: 100%;
+	border-collapse:collapse;
+}
+
+table.questions th{
+	background: #aaa;
+	text-align:left;
+}
+
+table.questions th,table.questions td{
+
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}
+table.questions th.last{
+
+	width: 15%;
+}
+table.questions th.first{
+	width: 0%;
+		
+}
+table.questions th.question{
+	width: 500%;
+	
+}
+table.questions th.ti{
+	width: 20%;
+	
+}
+.ques-box{
+
+		width: 100%;
+		padding :10px;
+		margin-bottom: 4px ;
+		border-radius: 4px;
+		background-color: #fff;
+		position: relative;
+}
+.ques-box p  {
+
+	font-family: arial;
+	font-size: 12px;
+	line-height: 12px;
+	color: #282828;
+	font-weight: 100;
+	}
+
+.ques-box p {
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.posts{
+	width: 100%;
+	padding :20px;
+	margin-bottom: 4px ;
+	border-radius: 4px;
+	background-color: #fff;
+
+}
+.posts p  {
+
+	font-family: arial;
+	font-size: 12px;
+	line-height: 12px;
+	color: #282828;
+	font-weight: 100;
+	}
+
+.posts p {
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.comment-box{
+
+		width: 80%;
+		padding :10px;
+		margin-bottom: 4px ;
+		border-radius: 4px;
+		background-color: #fff;
+		position: relative;
+}
+.comment-box p  {
+
+	font-family: arial;
+	font-size: 12px;
+	line-height: 12px;
+	color: #282828;
+	font-weight: 100;
+
+	}
+
+.comment-box p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.comment-box p1 {
+	font-size: 14px;
+	font-weight: none;
+
+}
+.edit-form{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.edit-form button{
+	width: 40px;
+	height: 30px;
+	color: #282828;
+	background-color: #fff;
+	border-style: none;
+	opacity: 0.7;
+}
+.edit-form button:hover{
+	opacity: 1;
+
+}
+.view-more button{
+	width: 150px;
+	height: 30px;
+	color: #282828;
+	background-color: #fff;
+	border-style: none;
+	opacity: 2;
+	float: right;
+	cursor:pointer;
+	position: absolute;
+	top:80px;
+	right: 80px;
+	font-size: 16px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-radius:4px;
+
+}
+.view-more button:hover{
+	border-color: black;
+	color: black;
+}
+.com-form button{
+	width: 40px;
+	height: 30px;
+	color: #282828;
+	background-color: #fff;
+	border-style: none;
+	
+}
+.delete-form{
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+.delete-form button{
+	width: 40px;
+	height: 30px;
+	color: #282828;
+	background-color: #fff;
+	border-style: none;
+	opacity: 0.7;
+}
+.delete-form button:hover{
+	opacity: 1;
+
+}
+.log_button #btn1{
+	border-color: #00e600; 
+	border-radius: 4px;
+	 border-width: 0.7px;
+}
+
+.log_button #btn2{
+	border-color: red;
+	 border-radius: 4px;
+	 border-width: 0.7px;
+
+}
+.log_button #btn1:hover{
+	border-color: #00e600; 
+	border-radius: 4px;
+	 color: green;
+	 border-width: 0.7px;
+	 background-color: #fff;
+}
+
+.log_button #btn2:hover{
+	border-color: red;
+	 border-radius: 4px;
+	 color: red;
+	 border-width: 0.7px;
+	 background-color: #fff;
+
+}
+
+.event-box{
+
+		width: 100%;
+		padding :10px;
+		padding-left: 30px; 
+		margin-bottom: 4px ;
+		border-radius: 4px;
+		background-color: #fff;
+		position: relative;
+		
+		border-width: 0.1px;
+		border-bottom-style: solid;
+}
+
+
+.event-box p {
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.event-box #event_title{
+	font-size: 24px;
+	color: purple;
+}
+.view-org-box{
+
+		width: 100%;
+		padding :10px;
+		padding-left: 30px; 
+		margin-bottom: 4px ;
+		border-radius: 4px;
+		background-color: #fff;
+		position: relative;
+		
+		border-width: 0.1px;
+		border-style: solid;
+}
+.view-org-box #show-personal{
+	border-bottom-style: solid;
+	border-width: 0.1px;
+	padding-bottom: 10px;
+}
+.view-org-box #show-contact{
+	margin-top: 10px;
+	
+}
+.button-admin button{
+	width: 300px;
+	height: 110px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	border:solid 0.5px;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border-color: black;
+
+}
+.button-admin{
+	margin-left: 50px;
+	padding-left: 10px;
+}
+.button-admin #add-admin{
+
+}
+.button-admin button:hover{
+	background-color: maroon;
+	color: white;
+	font-size: 20px;
+	border:none;
+}
